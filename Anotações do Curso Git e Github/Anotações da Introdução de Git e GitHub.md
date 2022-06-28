@@ -72,20 +72,22 @@ tem que configurar email e nome(apelido), usando os códigos :
 git config --global user.email "email"
 git config --global user.name "nome"
 
-usar markdown(MD), tipo os <h1> de html
-"#" = "<h1>"
-"##" = "<h2>"
-"###" = "<h3>"
+* obs remover aspas nas linhas*
+
+usar markdown(MD), tipo os "< h1 >" de html
+"#" = "< h1 >"
+"# #" = "< h2 >"
+"# # #" = "< h3 >"
 ...                   forma de escrever html sem ter contato com html de fato
 
 typora
 "- -" cria bolinha (lista)
 ":nameemoji"
-"[namelink](link)"
+"[-namelink-]"(link)"
 
 -----------
 
 commit inicial deixa mensagem
 
-"(https://wwww.markdownguide.org/basic-syntax/)
+"( https ://wwww.markdownguide .org/basic-syntax/ )
 markdownguide.org/basic-syntax/"
