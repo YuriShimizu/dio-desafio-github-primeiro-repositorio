@@ -1,25 +1,25 @@
-COMANDOS:
-cd = change directory
-ls = list (listar)
-ls -a = mostrar repositórios ocultos
-echo = printa de volta uma frase/mensagem
-(echo "mensagem" "> direcionador de mensagem p/arquivo" "mensagem.txt)
-pwd = mostrar caminho completo
-ctrl L = limpar tela
-git = sistema distribuido seguro
-mkdir = criar pasta (ex: mk dir livro-receitas)
-ls -a = listar itens ocultos
-mv = mover - (mv "arquivo"./nome da pasta/)
-git clone "colar link" = clonar
-ci:
-git status = status do arquivo, dizer se foi modificado
-git commit -m = commitar com mensagem
-git remote -v 
-git remote add origin "https..."
-git push origin master "ou" main = pra mandar os commits
-(se der errado, é por haver modificações)
-aí tem que puxar (pull) pra arrumar
-git pull origin master "ou" main - mostra o erro
+- COMANDOS:
+  cd = change directory
+  ls = list (listar)
+  ls -a = mostrar repositórios ocultos
+  echo = printa de volta uma frase/mensagem
+  (echo "mensagem" "> direcionador de mensagem p/arquivo" "mensagem.txt)
+  pwd = mostrar caminho completo
+  ctrl L = limpar tela
+  git = sistema distribuido seguro
+  mkdir = criar pasta (ex: mk dir livro-receitas)
+  ls -a = listar itens ocultos
+  mv = mover - (mv "arquivo"./nome da pasta/)
+  git clone "colar link" = clonar
+  ci:
+  git status = status do arquivo, dizer se foi modificado
+  git commit -m = commitar com mensagem
+  git remote -v 
+  git remote add origin "https..."
+  git push origin master "ou" main = pra mandar os commits
+  (se der errado, é por haver modificações)
+  aí tem que puxar (pull) pra arrumar
+  git pull origin master "ou" main - mostra o erro
 
 cat id_ed25519.pub
 eval $(ssh-agent -s) (validar a chave ssh)
